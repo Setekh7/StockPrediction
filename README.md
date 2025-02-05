@@ -1,6 +1,44 @@
+StockMachineLearning
 Overview
 
-This program trains on a stocks public data and then uses a linear regression machine learning algorithm to predict stocks
-After training it will output a graph that shows historical data and predicted data of sixty days
-It's defaulted to TSLA stock, however it can be changed in the source code, i did not implent it into the cli as the main focus was the algorithm
+StockMachineLearning is a machine learning program that fetches historical stock data and uses a Long Short-Term Memory (LSTM) neural network to predict stock prices.
+
+The program allows users to enter any stock symbol, retrieves real-time data using the Alpha Vantage API, and generates a graph displaying historical stock data alongside predicted prices for the next 60 days.
+Features
+
+    Fetches historical stock data for any stock symbol
+    Preprocesses and normalizes data using MinMaxScaler
+    Trains an LSTM-based neural network with dropout and bidirectional layers
+    Implements EarlyStopping to optimize model performance
+    Generates a matplotlib visualization comparing actual vs. predicted prices
+
+Installation
+
+Ensure you have Python 3.x installed, then install the required dependencies:
+
+pip install numpy pandas matplotlib scikit-learn tensorflow requests
+
+Usage
+
+Run the script:
+
+python main.py
+
+This will:
+
+    Prompt you to enter a stock symbol
+    Fetch the stock's historical data
+    Train the LSTM model
+    Generate a graph with predictions
+
+Dependencies
+
+    NumPy – Numerical computations
+    Pandas – Data manipulation
+    Matplotlib – Data visualization
+    scikit-learn – Data preprocessing
+    TensorFlow/Keras – Machine learning
+    Requests – Fetching stock data from Alpha Vantage
+
+Example Output
 

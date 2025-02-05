@@ -41,7 +41,8 @@ This will:
 - **Requests** – Fetching stock data from Alpha Vantage  
 
 ## Example Output  
-📈 *(Insert an example output image here if possible)*  
+  ![Stock Prediction Graph](Example.png)
+
 
 ## License  
 This project is **open-source**, and you are free to use or modify it for personal or educational purposes.  

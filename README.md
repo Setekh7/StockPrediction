@@ -1,7 +1,7 @@
-# StockMachineLearning  
+# StockPrediction
 
 ## Overview  
-**StockMachineLearning** is a machine learning program that fetches historical stock data and uses a **Long Short-Term Memory (LSTM)** neural network to predict stock prices.  
+**StockPrediction** is a machine learning program that fetches historical stock data and uses a **Long Short-Term Memory (LSTM)** neural network to predict stock prices.  
 
 The program allows users to enter **any stock symbol**, retrieves real-time data using the **Alpha Vantage API**, and generates a graph displaying **historical stock data** alongside **predicted prices for the next 60 days**.  
 
